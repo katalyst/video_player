@@ -361,6 +361,7 @@ package au.com.katalyst.components
       stream.soundTransform = new SoundTransform(0);
 
       dispatchEvent(new VideoPlayerEvent(VideoPlayerEvent.PLAYBACK_HALTED, url));
+      dispatchEvent(new VideoPlayerEvent(VideoPlayerEvent.PLAYBACK_STOPPED, url));
     }
 
     public function toggle():void
@@ -414,6 +415,7 @@ package au.com.katalyst.components
             if (freezeLastFrame) pause();
             else stop();
           }
+          dispatchEvent(new VideoPlayerEvent(VideoPlayerEvent.PLAYBACK_COMPLETE, url));
           break;
         }
         case "NetStream.Buffer.Full":

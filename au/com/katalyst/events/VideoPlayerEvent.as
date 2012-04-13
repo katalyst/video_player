@@ -23,9 +23,25 @@ package au.com.katalyst.events
 
     public static const ON_META_DATA:String = "onMetaData";
 
-    public static const PLAYBACK_STARTED:String = "playbackStarted";
+    /**
+     * The video has played to the end.
+     */
+    public static const PLAYBACK_COMPLETE:String = "playbackComplete";
 
+    /**
+     * The video has been paused, stop or reached it's end.
+     */
     public static const PLAYBACK_HALTED:String = "playbackHalted";
+
+    /**
+     * The video has been stopped and the stream has been closed.
+     */
+    public static const PLAYBACK_STOPPED:String = "playbackStopped";
+
+    /**
+     * The video has started playing or continued playing (unpaused).
+     */
+    public static const PLAYBACK_STARTED:String = "playbackStarted";
 
     //------------------------------------------------------------------------------------------------//
     //                                                                                                //
