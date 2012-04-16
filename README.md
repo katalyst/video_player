@@ -3,10 +3,13 @@ Video Player
 
 Source for Flash video player component.
 
+**NOTE:** This repositiory contains only ActionScript sourcecode, _not_ a
+player that can be embedded into an HTML page.
+
 Licence
 -------
 
-    Copyright 2011 Katalyst Interactive
+    Copyright 2012 Katalyst Interactive
 
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
