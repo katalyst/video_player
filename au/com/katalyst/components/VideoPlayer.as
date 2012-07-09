@@ -262,7 +262,7 @@ package au.com.katalyst.components
 
     public var loop:Boolean;
 
-    protected var stream:NetStream;
+    public var stream:NetStream;
 
     protected var video:Video;
 
